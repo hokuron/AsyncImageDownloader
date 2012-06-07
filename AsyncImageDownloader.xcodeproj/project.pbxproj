@@ -14,7 +14,8 @@
 		AAEE2E2D158050CA002B8CD9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AAEE2E2C158050CA002B8CD9 /* main.m */; };
 		AAEE2E31158050CA002B8CD9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AAEE2E30158050CA002B8CD9 /* AppDelegate.m */; };
 		AAEE2E34158050CA002B8CD9 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAEE2E32158050CA002B8CD9 /* MainStoryboard.storyboard */; };
-		AAEE2E37158050CA002B8CD9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AAEE2E36158050CA002B8CD9 /* ViewController.m */; };
+		AAEE2E4015805101002B8CD9 /* AsyncImageDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = AAEE2E3F15805101002B8CD9 /* AsyncImageDownloader.m */; };
+		AAEE2E4315805160002B8CD9 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AAEE2E4215805160002B8CD9 /* TableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,15 +23,17 @@
 		AAEE2E20158050CA002B8CD9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		AAEE2E22158050CA002B8CD9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		AAEE2E24158050CA002B8CD9 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		AAEE2E28158050CA002B8CD9 /* AsyncImageDownloader-Info.plist */ = {isa = PBXFileReference; path = "AsyncImageDownloader-Info.plist"; sourceTree = "<group>"; };
+		AAEE2E28158050CA002B8CD9 /* AsyncImageDownloader-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AsyncImageDownloader-Info.plist"; sourceTree = "<group>"; };
 		AAEE2E2A158050CA002B8CD9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		AAEE2E2C158050CA002B8CD9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		AAEE2E2E158050CA002B8CD9 /* AsyncImageDownloader-Prefix.pch */ = {isa = PBXFileReference; path = "AsyncImageDownloader-Prefix.pch"; sourceTree = "<group>"; };
-		AAEE2E2F158050CA002B8CD9 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		AAEE2E2E158050CA002B8CD9 /* AsyncImageDownloader-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AsyncImageDownloader-Prefix.pch"; sourceTree = "<group>"; };
+		AAEE2E2F158050CA002B8CD9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		AAEE2E30158050CA002B8CD9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		AAEE2E33158050CA002B8CD9 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		AAEE2E35158050CA002B8CD9 /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
-		AAEE2E36158050CA002B8CD9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		AAEE2E3E15805101002B8CD9 /* AsyncImageDownloader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AsyncImageDownloader.h; sourceTree = "<group>"; };
+		AAEE2E3F15805101002B8CD9 /* AsyncImageDownloader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AsyncImageDownloader.m; sourceTree = "<group>"; };
+		AAEE2E4115805160002B8CD9 /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		AAEE2E4215805160002B8CD9 /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,11 +80,12 @@
 		AAEE2E26158050CA002B8CD9 /* AsyncImageDownloader */ = {
 			isa = PBXGroup;
 			children = (
+				AAEE2E3D158050D9002B8CD9 /* AsyncImageDownloader */,
 				AAEE2E2F158050CA002B8CD9 /* AppDelegate.h */,
 				AAEE2E30158050CA002B8CD9 /* AppDelegate.m */,
 				AAEE2E32158050CA002B8CD9 /* MainStoryboard.storyboard */,
-				AAEE2E35158050CA002B8CD9 /* ViewController.h */,
-				AAEE2E36158050CA002B8CD9 /* ViewController.m */,
+				AAEE2E4115805160002B8CD9 /* TableViewController.h */,
+				AAEE2E4215805160002B8CD9 /* TableViewController.m */,
 				AAEE2E27158050CA002B8CD9 /* Supporting Files */,
 			);
 			path = AsyncImageDownloader;
@@ -96,6 +100,15 @@
 				AAEE2E2E158050CA002B8CD9 /* AsyncImageDownloader-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AAEE2E3D158050D9002B8CD9 /* AsyncImageDownloader */ = {
+			isa = PBXGroup;
+			children = (
+				AAEE2E3E15805101002B8CD9 /* AsyncImageDownloader.h */,
+				AAEE2E3F15805101002B8CD9 /* AsyncImageDownloader.m */,
+			);
+			name = AsyncImageDownloader;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -162,7 +175,8 @@
 			files = (
 				AAEE2E2D158050CA002B8CD9 /* main.m in Sources */,
 				AAEE2E31158050CA002B8CD9 /* AppDelegate.m in Sources */,
-				AAEE2E37158050CA002B8CD9 /* ViewController.m in Sources */,
+				AAEE2E4015805101002B8CD9 /* AsyncImageDownloader.m in Sources */,
+				AAEE2E4315805160002B8CD9 /* TableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
